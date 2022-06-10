@@ -11,6 +11,7 @@ html { box-sizing: border-box;}
 html {
     font-family: 'Iceberg', 'Montserrat'; /* as per style guide */
     font-size: 125%; /* making 1 rem 20px default */
+    text-transform: uppercase;
     color: #fff;
 }
 
@@ -20,10 +21,17 @@ html {
     margin: 0 auto;
 }
 
-ul, a {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: normal;
 }
 
 img {
@@ -31,3 +39,70 @@ img {
     display: block;
     height: auto;
 }
+
+
+
+/* HEADER */
+
+header {
+    height: 100vh;
+    background-image: url(../assignment01/thunder-force-stadium/assets/image-1.png);
+    background-size: cover;
+    overflow: auto;
+}
+
+header .wrapper {
+    position: relative;
+}
+
+.headerText {
+    padding: 50px 300px;
+}
+
+  .headerNav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-transform: lowercase;
+    font-size: 35px;
+    text-align: center;
+    border: 1px solid #9200ff;
+    background-color: #9200ff;
+    padding: 10px 0;
+}
+
+aside {
+    position: absolute;
+    top: 50vh;
+    right: 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* To make the snapchat logo white */
+/* .fa-snapchat--fa-primary-color {
+    color: #fff;
+}
+
+.fa-snapchat--fa-primary-opacity {
+    opacity: 0;
+} */
+
+
