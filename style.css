@@ -73,7 +73,17 @@ h1 {
     font-weight: lighter;
 }
 
-h2 {
+h3 {
+    font-family: 'Montserrat';
+}
+
+p {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 20px;
+}
+
+header h2 {
     font-family: 'Montserrat';
     font-weight: normal;
     text-transform: lowercase;
@@ -99,6 +109,29 @@ aside {
 /* .fa-snapchat {
     background-color: #fff;
 } */
+
+.performing, .newExperiences {
+    display: flex;
+    background-color: #3d0369;
+}
+
+.textContainer {
+    flex-basis: 50%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.imgContainer {
+    flex-basis: 50%;
+}
+.imgContainer img{
+    flex-basis: 50%;    
+}
+
+
+
 
 
 
