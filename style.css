@@ -257,16 +257,99 @@ aside {
 }
 
 .subscribe {
-    background-color: #9200ff;
+    background-color: #3d0369;
     display: flex;
 }
 
 .secondNav ul {
     display: flex;
-    padding: 50px 200px;
+    padding: 50px 300px;
     justify-content: space-between;
 }
 
+.communication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.contactInfo {
+    flex-basis: 45%;
+}
+
+.contactInfo h2,  form legend {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contactInfo p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 20%;
+    text-transform: none;
+}
+
+.subscribeForm {
+    flex-basis: 55%;
+}
+
+.subscribeForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submitBox {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 70%;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0;
+    font-weight: lighter;
+    text-transform: none;
+    padding-bottom: 7px;
+}
+
+input {
+    line-height: 200%;
+    padding-left: 20px;
+    width: 100%;
+}
+
+button {
+    width: 30%;
+    max-height: 46px;
+    font-family: 'Iceberg';
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+    background-color: #9200ff;
+    border: none;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: flex-end;
+}
 
 
 
