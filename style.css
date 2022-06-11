@@ -390,7 +390,12 @@ footer p {
 
     /* MAIN */
 
-    .performing, .newExperiences, .getYourTickets .wrapper {
+    .performing, 
+    .newExperiences, 
+    .getYourTickets .wrapper, 
+    .iconBar ul,
+    .subscribe .wrapper,
+    .communication {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -419,6 +424,57 @@ footer p {
         padding: 5px 40px;
     }
 
+    .icons {
+        height: auto;
+    }
+
+    .iconBar ul {
+        gap: 50px;
+    }
+
+    .gallery {
+        max-width: 50%;
+    }
+    .gallery img:last-child {
+        display: none;
+    }
+
+    .secondNav {
+        width: unset;
+        padding: 0;
+    }
+
+    .secondNav ul {
+        display: flex;
+        gap: 125px;
+    }
+
+    .contactInfo, .subscribeForm {
+        flex-basis: unset;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .submitBox {
+        width: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     
+    label {
+        min-width: 80vw;
+        text-align: center;
+    }
+
+    input {
+        padding: 0;
+        text-align: center;
+    }
+
+    button {
+        padding-top: 10px;
+        min-width: 80vw;
+    }
 }
 
