@@ -32,6 +32,7 @@ a {
     color: #fff;
     font-family: 'Montserrat';
     font-weight: normal;
+    display: inline-block;
 }
 
 img {
@@ -195,12 +196,46 @@ aside {
 .tickets a {
     font-family: 'Iceberg';
     font-weight: normal;
-    width: 25%;
+    width: 22%;
     font-size: 25px;
     line-height: 29px;
     background-color: #9200ff;
     text-align: center;
     padding: 5px 0;
+}
+
+.icons {
+    background-color: #3d0369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 250px 0;
+}
+.iconBar {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.iconBar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconBar ul a {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.locations, .buyTickets, .reachOut {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 
