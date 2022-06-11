@@ -351,6 +351,15 @@ button {
     align-self: flex-end;
 }
 
+footer p {
+    background-color: #0f0632;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+    line-height: 200%;
+}
+
 
 
 
