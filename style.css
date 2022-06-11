@@ -58,7 +58,6 @@ header {
     height: 100vh;
     background-image: url(../assignment01/thunder-force-stadium/assets/image-1.png);
     background-size: cover;
-    overflow: auto;
 }
 
 .headerText {
@@ -351,6 +350,7 @@ button {
     align-self: flex-end;
 }
 
+/* FOOTER */
 footer p {
     background-color: #0f0632;
     color: #fff;
@@ -360,6 +360,26 @@ footer p {
     line-height: 200%;
 }
 
+/* MEDIA QUERIES */
 
+@media (max-width: 768px) {
 
+    header {
+        background-size: cover;
+        max-height: 50vh;
+        
+    }
+    .headerText {
+        padding: 0;
+    }
+
+    span {
+        display: block;
+    }
+    header nav, aside {
+        visibility: hidden;
+    }
+
+    
+}
 
