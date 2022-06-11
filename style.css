@@ -113,9 +113,12 @@ aside {
     line-height: 1.5;
 }
 
-/* .fa-snapchat {
+/* My Failed attempt to make the snapchat icon solid white
+
+.fa-snapchat {
     background-color: #fff;
-} */
+}
+*/
 
 /* MAIN Sections */
 .performing, .newExperiences {
@@ -350,6 +353,11 @@ button {
     align-self: flex-end;
 }
 
+button:focus, button:hover {
+    background-color: #fff;
+    color: #9200ff;
+}
+
 /* FOOTER */
 footer p {
     background-color: #0f0632;
@@ -363,7 +371,7 @@ footer p {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
-
+    /* HEADER */
     header {
         background-size: cover;
         max-height: 50vh;
@@ -378,6 +386,37 @@ footer p {
     }
     header nav, aside {
         visibility: hidden;
+    }
+
+    /* MAIN */
+
+    .performing, .newExperiences, .getYourTickets .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .performing {
+        flex-direction: column-reverse;
+    }
+
+    .performing .textContainer a,
+    .newExperiences .textContainer a,
+    .getYourTickets .wrapper a {
+        align-self: center;
+    }
+
+    .getYourTickets .wrapper {
+        align-items: flex-start;
+    }
+    .getYourTickets .wrapper img {
+        width: 100%;
+    }
+
+    .getYourTickets .wrapper a {
+        width: unset;
+        padding: 5px 40px;
     }
 
     
